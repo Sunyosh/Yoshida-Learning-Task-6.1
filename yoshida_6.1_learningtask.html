@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG Text Art</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <svg width="980" height="780">
+        <path id="dropPath" d="M400 600 C100 350 100 750 400 600 Z" stroke="none" fill="transparent" stroke-width="2" transform="scale(2.0) translate(-370, -250) rotate(260, 400, 390)"/> 
+        <text font-family="Arial" font-size="21.5" fill="#00cccc">
+            <textPath xlink:href="#dropPath" startOffset="0%">
+                Every water drop on a leaf is a tiny reminder that even the smallest things can hold great beauty and importance.
+            </textPath>
+        </text>
+    </svg>
+</body>
+</html>
